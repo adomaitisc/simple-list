@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import icon from "public/SimpleList.svg";
-import product from "public/product-image.png";
-import apple from "public/apple.svg";
+import icon from "public/simplelist/SimpleList.svg";
+import product from "public/simplelist/product-image.png";
+import apple from "public/simplelist/apple.svg";
 
 export default function Home() {
   return (
