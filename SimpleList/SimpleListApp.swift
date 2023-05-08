@@ -2,7 +2,7 @@
 //  SimpleListApp.swift
 //  SimpleList
 //
-//  Created by Cauã Adomaitis on 5/3/23.
+//  Created by Cauã Adomaitis on 5/2/23.
 //
 
 import SwiftUI
@@ -12,6 +12,8 @@ struct SimpleListApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .listStyle(.sidebar)
         }
+        .defaultSize(width: 300, height: 400)
     }
 }
